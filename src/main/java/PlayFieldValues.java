@@ -20,11 +20,13 @@ public class PlayFieldValues {
 
 		private final List<Integer> play9x9 = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
 		private final List<Integer> playHex = List.of(0, 1,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
+		private final List<Integer> play25 = List.of(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25);
 
 		public Integer rootPlayField(PlayList playList){
 			switch (playList) {
 				case play9x9:	return 3;
 				case playHex: return 4;
+			case play25: return 5;
 				default:	throw new IllegalArgumentException("Illegal argument in rootPlayField");
 			}
 		}
@@ -50,8 +52,13 @@ public class PlayFieldValues {
 
 		public String itemsAsString(List<Integer> items,PlayList playList) {
 				String result = "";
-				items = filterItems(items,playList);
-				items.stream().sorted(Comparator.naturalOrder()).forEach(item -> result.concat(Integer.toHexString(item)));
+				if (List.of(play9x9,playHex).contains(playList) ) {
+						items = filterItems(items, playList);
+						items.stream().sorted(Comparator.naturalOrder()).forEach(item -> result.concat(Integer.toHexString(item)));
+				}
+				if (List.of(play25).contains(play25)) {
+						// ToDo implemented this
+				}
 				return  result;
 		}
 }
