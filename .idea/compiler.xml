@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HardWay9x9" />
+        <module name="Hard9x9" />
       </profile>
     </annotationProcessing>
   </component>

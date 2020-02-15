@@ -4,6 +4,8 @@ import java.util.List;
 
 public class PlayFieldValues {
 
+		public static final Integer NOT_COMPLETED = -1; // can be any value below 0
+
 		private static PlayFieldValues instance = null;
 
 		private PlayFieldValues() {
@@ -28,6 +30,14 @@ public class PlayFieldValues {
 				case playHex: return 4;
 			case play25: return 5;
 				default:	throw new IllegalArgumentException("Illegal argument in rootPlayField");
+			}
+		}
+		public Integer sizePlayField(PlayList playList) {
+			switch (playList) {
+				case play9x9: return 9;
+				case playHex: return 16;
+				case play25:return 25;
+				default:	throw new IllegalArgumentException("Illegal argument in sizePlayField");
 			}
 		}
 

@@ -60,16 +60,14 @@ public class Cell {
 		private List<Integer> candidateList;
 		private Integer originalValue;
 		private Integer workingValue;
-		private Integer row;
-		private Integer col;
+		private RowCol rowCol;
 		private Object component;
 		private PlayList playList;
 
-		private final Integer NOT_COMPLETED = -1; // can be any value below 0
 
-		public Cell(Integer row, Integer col, Object component,PlayList playList) {
-				this.row = row;
-				this.col = col;
+
+		public Cell(RowCol rowCol, Object component,PlayList playList) {
+				this.rowCol = rowCol;
 				this.component = component;
 				this.playList = playList;
 				candidateList = new ArrayList<>();
@@ -91,7 +89,7 @@ public class Cell {
 				return result;
 		}
 
-		private Integer getValue() {
+		public Integer getValue() {
 				if (originalValue != NOT_COMPLETED) return originalValue;
 				return workingValue;
 		}
