@@ -2,18 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6660640-e459-47f8-9452-8eae41bcb60d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RowCol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/doubbel/hard9x9/backend/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/doubbel/hard9x9/backend/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/doubbel/hard9x9/backend/PlayFieldValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/icons/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s01a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s01b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s01c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s02a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s02b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s02c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s03a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s03b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s03c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s04a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s04b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s04c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s05a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s05b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s05c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s06a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s06b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s06c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s07a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s07b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s07c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s08a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s08b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s08c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s09a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s09b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s09c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s10a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s10b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s10c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s11a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s11b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s11c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s12a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s12b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s12c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s13a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s13b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s13c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s14a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s14b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s14c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s15a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s15b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s15c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/s16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/sudos/sudokus.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.generated.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayFieldValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayFieldValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/doubbel/hard9x9/frontend/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/doubbel/hard9x9/backend/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Grid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayFieldValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/doubbel/hard9x9/backend/PlayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RowCol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/doubbel/hard9x9/backend/RowCol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,8 +95,12 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1XnDjTKhwWQfCvGhZxfykcJ3bx5" />
   <component name="ProjectLevelVcsManager">
@@ -45,15 +114,26 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/.." />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\Hard9x9\Hard9x9\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="backend" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\devenv\sideprojects\HardWay9x9" />
     </key>
@@ -61,6 +141,8 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
+      <command value="mvn clean install" />
+      <command value="mvn clean compile" />
     </option>
   </component>
   <component name="RunManager">
@@ -123,42 +205,89 @@
       <option name="presentableId" value="Default" />
       <updated>1581673100006</updated>
       <workItem from="1581673101713" duration="12871000" />
-      <workItem from="1581705268504" duration="5887000" />
+      <workItem from="1581705268504" duration="5968000" />
+      <workItem from="1581765251886" duration="6918000" />
+      <workItem from="1581798244532" duration="2811000" />
+      <workItem from="1581801107203" duration="686000" />
+      <workItem from="1581801824757" duration="363000" />
     </task>
+    <task id="LOCAL-00001" summary="added getEmptyCells&#10;started countMissingCandidates">
+      <created>1581753064107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581753064107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added getEmptyCells&#10;started countMissingCandidates" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getEmptyCells&#10;started countMissingCandidates" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2185" y="62" key="#Project_Structure" timestamp="1581673166673">
-      <screen x="1920" y="0" width="1344" height="800" />
+    <state x="505" y="84" key="#Project_Structure" timestamp="1581799088654">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="2185" y="62" key="#Project_Structure/0.0.1536.824/1920.0.1344.800@1920.0.1344.800" timestamp="1581673166673" />
+    <state x="505" y="84" key="#Project_Structure/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581799088654" />
     <state x="734" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581705982795">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="734" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581705982795" />
-    <state x="910" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1581708922335">
+    <state x="910" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1581800808828">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="2398" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1344.800@1920.0.1344.800" timestamp="1581673422843" />
-    <state x="910" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581708922335" />
-    <state x="2372" y="144" key="FileChooserDialogImpl" timestamp="1581686792723">
-      <screen x="1920" y="0" width="1344" height="800" />
+    <state x="910" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581800808828" />
+    <state x="918" y="137" key="CommitChangelistDialog2" timestamp="1581753063013">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="918" y="137" key="CommitChangelistDialog2/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581753063013" />
+    <state x="861" y="194" key="FileChooserDialogImpl" timestamp="1581800839431">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="2372" y="144" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1344.800@1920.0.1344.800" timestamp="1581686792723" />
-    <state x="760" y="118" key="SettingsEditor" timestamp="1581705846924">
+    <state x="861" y="194" key="FileChooserDialogImpl/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581800839431" />
+    <state width="2151" height="303" key="GridCell.Tab.0.bottom" timestamp="1581801801714">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="760" y="118" key="SettingsEditor/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581705846924" />
-    <state x="936" y="250" width="672" height="677" key="run.anything.popup" timestamp="1581705999779">
+    <state width="2151" height="303" key="GridCell.Tab.0.bottom/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581801801714" />
+    <state width="2151" height="303" key="GridCell.Tab.0.center" timestamp="1581801801714">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="936" y="250" width="672" height="677" key="run.anything.popup/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581705999779" />
-    <state x="943" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1581705381053">
+    <state width="2151" height="303" key="GridCell.Tab.0.center/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581801801714" />
+    <state width="2151" height="303" key="GridCell.Tab.0.left" timestamp="1581801801713">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="943" y="235" width="672" height="678" key="search.everywhere.popup/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581705381053" />
+    <state width="2151" height="303" key="GridCell.Tab.0.left/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581801801713" />
+    <state width="2151" height="303" key="GridCell.Tab.0.right" timestamp="1581801801714">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2151" height="303" key="GridCell.Tab.0.right/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581801801714" />
+    <state x="170" y="201" key="Maven.ArtifactSearchDialog" timestamp="1581801536228">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="170" y="201" key="Maven.ArtifactSearchDialog/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581801536228" />
+    <state x="760" y="118" key="SettingsEditor" timestamp="1581801065721">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="760" y="118" key="SettingsEditor/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581801065721" />
+    <state x="872" y="277" key="Vcs.Push.Dialog.v2" timestamp="1581753066701">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="872" y="277" key="Vcs.Push.Dialog.v2/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581753066701" />
+    <state x="936" y="250" width="672" height="677" key="run.anything.popup" timestamp="1581801654287">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="936" y="250" width="672" height="677" key="run.anything.popup/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581801654287" />
+    <state x="943" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1581801799979">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="943" y="235" width="672" height="678" key="search.everywhere.popup/0.0.2560.1080/2560.94.1600.900@0.0.2560.1080" timestamp="1581801799979" />
   </component>
 </project>

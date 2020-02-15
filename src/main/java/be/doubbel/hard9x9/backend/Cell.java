@@ -1,5 +1,8 @@
+package be.doubbel.hard9x9.backend;
+
 import java.util.ArrayList;
 import java.util.List;
+
 
 /**
  * Hard, aggressive  approach
@@ -60,23 +63,21 @@ public class Cell {
 		private List<Integer> candidateList;
 		private Integer originalValue;
 		private Integer workingValue;
-		private RowCol rowCol;
+		public RowCol rowCol;
 		private Object component;
 		private PlayList playList;
 
-
-
-		public Cell(RowCol rowCol, Object component,PlayList playList) {
+		public Cell(RowCol rowCol, Object component, PlayList playList) {
 				this.rowCol = rowCol;
 				this.component = component;
 				this.playList = playList;
 				candidateList = new ArrayList<>();
-				workingValue = NOT_COMPLETED;
-				originalValue = NOT_COMPLETED;
+				workingValue = PlayFieldValues.NOT_COMPLETED;
+				originalValue = PlayFieldValues.NOT_COMPLETED;
 		}
 
 		public String getDisplayValue() {
-				if (getValue() != NOT_COMPLETED) return Integer.toString(getValue());
+				if (getValue() != PlayFieldValues.NOT_COMPLETED) return Integer.toString(getValue());
 				if (countCandidates() == 1) return Integer.toString(candidateList.get(0));
 				return "";
 		}
@@ -90,7 +91,7 @@ public class Cell {
 		}
 
 		public Integer getValue() {
-				if (originalValue != NOT_COMPLETED) return originalValue;
+				if (originalValue != PlayFieldValues.NOT_COMPLETED) return originalValue;
 				return workingValue;
 		}
 
@@ -106,7 +107,7 @@ public class Cell {
 				if (!PlayFieldValues.getInstance().playFieldContains(playList,value)) {
 						throw new IllegalArgumentException("Illegal value in setWorkingValue");
 				}
-				if (originalValue == NOT_COMPLETED) {
+				if (originalValue == PlayFieldValues.NOT_COMPLETED) {
 						workingValue = value;
 				}
 				candidateList.clear();
@@ -114,7 +115,7 @@ public class Cell {
 
 
 		public List<Integer> getAllCandidates() {
-				if (getValue() != NOT_COMPLETED) {
+				if (getValue() != PlayFieldValues.NOT_COMPLETED) {
 						candidateList.clear();
 				}
 				return List.copyOf(candidateList);
@@ -132,14 +133,14 @@ public class Cell {
 			}
 		}
 		public void addAllCandidates() {
-				if (getValue() != NOT_COMPLETED) {
+				if (getValue() != PlayFieldValues.NOT_COMPLETED) {
 						candidateList.clear();
 						return;
 				}
 				candidateList = PlayFieldValues.getInstance().getPlayFieldValues(playList);
 		}
 		public void addCandidates(List<Integer> candidatesToAdd) {
-				if (getValue() != NOT_COMPLETED) {
+				if (getValue() != PlayFieldValues.NOT_COMPLETED) {
 						candidateList.clear();
 						return;
 				}
@@ -151,7 +152,7 @@ public class Cell {
 				});
 		}
 		public boolean containsAllCandidates(List<Integer> candidatesToCheck) {
-			if (getValue() != NOT_COMPLETED) {
+			if (getValue() != PlayFieldValues.NOT_COMPLETED) {
 					candidateList.clear();
 					return false;
 			}
@@ -165,7 +166,7 @@ public class Cell {
 		}
 
 		public Integer countCandidates() {
-				if (getValue() != NOT_COMPLETED) {
+				if (getValue() != PlayFieldValues.NOT_COMPLETED) {
 						candidateList.clear();
 						return 0;
 				}

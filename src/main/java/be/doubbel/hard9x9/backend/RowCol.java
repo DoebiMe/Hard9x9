@@ -1,3 +1,5 @@
+package be.doubbel.hard9x9.backend;
+
 public class RowCol {
     Integer row;
     Integer col;
